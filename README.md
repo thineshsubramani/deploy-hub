@@ -1,6 +1,9 @@
 # Deploy-Hub: My Personal CI/CD Hub
 Deploy-Hub centralizes builds and deployments for all my GitHub repos using my 1-2 self-hosted runners. Since personal GitHub accounts don’t support runner groups, this hub consolidates CI/CD tasks—building packages, creating releases, updating READMEs and GitHub Pages, and publishing to apt, snap, pacman, and more—in one place. The core logic is in a public composite action that anyone can reuse. It also tracks which repos use it and their build status.
 
+## [Repo discontinuation] Notice
+- Plan to use to Github ARC. 
+
 ## How It Works
 - Multiple repos trigger deploy-hub to handle their CI/CD:
 ```
